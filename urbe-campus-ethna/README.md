@@ -1,4 +1,4 @@
-# Contracts for (suitacases project)[https://github.com/marcanalella/crazy-suitcase]
+# Contracts for (https://github.com/marcanalella/crazy-suitcase)[Suitacases MiniApp]
 
 # How to Use
 # Deploy Contracts on Base Sepolia
