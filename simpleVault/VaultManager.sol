@@ -3,7 +3,6 @@ pragma solidity ^0.8.0;
 
 import {VaultBase} from "./VaultBase.sol";
 
-/// @title Simple Math Library
 library SafeMathLib {
     function safeAdd(uint a, uint b) internal pure returns (uint) {
         return a + b;
@@ -15,7 +14,6 @@ library SafeMathLib {
     }
 }
 
-/// @title Vault Manager Contract
 contract VaultManager is VaultBase {
 
     using SafeMathLib for uint;
@@ -37,4 +35,3 @@ contract VaultManager is VaultBase {
     }
 
 }
-
